@@ -3,7 +3,7 @@ services:
 
   db:
     image: mongo:4.2.8
-    container_name: db
+    container_name: mongodb
     ports:
       - "4000:27017"
     restart: always
